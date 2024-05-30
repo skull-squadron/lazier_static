@@ -32,7 +32,7 @@ fn main() {
 
 ### Cargo.toml
 
-`lazier_static = "0.1.0"`
+`lazier_static = "0.1.2"`
 
 ## License
 
