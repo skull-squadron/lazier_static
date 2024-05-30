@@ -7,7 +7,7 @@ A thin layer around `std::sync::OnceLock` providing cached, lazy, static initial
 ## Examples
 
 ```rust
-use lazier_static::lazier_static;
+use lazier_static::*;
 
 lazier_static! {
     fn hello_world() -> &str {
