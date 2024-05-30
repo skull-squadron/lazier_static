@@ -2,5 +2,16 @@
 name = "lazier_static"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/skull-squadron/lazier_static"
+documentation = "https://docs.rs/lazier_static"
+homepage = "https://github.com/skull-squadron/lazier_static"
+description = """
+A thin wrapper around `std::sync::OnceLock` providing cached, static, lazy initialization.
+"""
+categories = ["static", "lazy", "macro"]
+rust-version = "1.70.0"
+
 
 [dependencies]
