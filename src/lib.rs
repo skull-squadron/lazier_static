@@ -3,7 +3,7 @@
 //! A thin wrapper around `std::sync::OnceLock` providing cached, static, lazy initialization. 
 //!
 //! ```rust
-//! use lazier_static::lazier_static;
+//! use lazier_static::*;
 //! 
 //! lazier_static! {
 //!     fn hello_world() -> &str {
@@ -13,8 +13,8 @@
 //!
 //! //...
 //!
-//! fn main() -> Result<()> {
-        println!("{}", hello_world());
+//! fn main() {
+//!     println!("{}", hello_world());
 //! }
 //! ```
 //!
